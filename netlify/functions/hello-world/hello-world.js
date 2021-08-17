@@ -1,6 +1,6 @@
 const handler = async (event) => {
   try {
-    const name = event?.queryStringParameters?.name || 'World'
+    const name = event.queryStringParameters.name || 'World'
 
     return {
       statusCode: 200,
